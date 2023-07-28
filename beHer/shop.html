@@ -1,0 +1,857 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>beHer</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+   <style>
+    .row{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+   </style>
+</head>
+<body>
+    <div class="container">
+        <!--Nav Bar-->
+          <nav class="navbar navbar-expand-lg bg-body-tertiary " >
+              <div class="container-fluid">
+                <a class="navbar-brand" href="homeNew.html">
+                  <img src="./images/logo3.png" alt="logo" height="30" width="80" class="d-inline-block align-text-top"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover active"
+                       aria-current="page" href="homeNew.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" 
+                      href="homeNew.html #about-us">About us</a>
+                    </li>
+                    
+                    <li class="nav-item">
+                      <a class="nav-link link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" 
+                      href="homeNew.html #login/signup">Log in/Sign up</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-success link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover" href="shop.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Shop now!
+                      </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link link-secondary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                       href="#">Help</a>
+                    </li>
+                  </ul>
+                  <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form>
+                </div>
+              </div>
+            </nav>
+
+        <!--shop items-->
+        <div class="row row-cols-3 row-cols-md-3 g-4 ">
+            <div class="col">
+                <div class="card " style="width: 18rem;">
+                  <div id="carouselExample" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/CROPPED DENIM BOMBER.jpg" class="d-block w-100" alt="./images/CROPPED DENIM BOMBER.jpg">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/CROPPED DENIM BOMBER1.jpg" class="d-block w-100" alt="./images/CROPPED DENIM BOMBER.jpg">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/CROPPED DENIM BOMBER2.jpg" class="d-block w-100" alt="./images/CROPPED DENIM BOMBER.jpg">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/CROPPED DENIM BOMBER3.jpg" class="d-block w-100" alt="./images/CROPPED DENIM BOMBER.jpg">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">CROPPED DENIM BOMBER     <br>  59.99$</h5>
+                      <p class="card-text">Shorts with interior adjustable waistband and front button closure. Front pockets. Patch pockets at legs and back.</p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio1">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio2">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio3">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio4" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio4">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio5" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio5">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample1" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/CANVAS SHORTS.jpg" class="d-block w-100" alt="CANVAS SHORTS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/CANVAS SHORTS1.jpg" class="d-block w-100" alt="CANVAS SHORTS1">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/CANVAS SHORTS2.jpg" class="d-block w-100" alt="CANVAS SHORTS2">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/CANVAS SHORTS3.jpg" class="d-block w-100" alt="CANVAS SHORTS3">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div> 
+                  
+                  
+                    <div class="card-body">
+                      <h5 class="card-title">CANVAS SHORTS <br>  39.99$</h5>
+                      <p class="card-text">Cropped denim bomber jacket with lapel collar and cuffed long sleeves. Comfy. </p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio6" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio6">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio7" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio7">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio8" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio8">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio9" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio9">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio10" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio10">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample2" class="carousel slide">
+                  <div class="carousel-inner">
+                    <div class="carousel-item active">
+                      <img src="./images/FLARED FULL LENGTH PANTS.jpg" class="d-block w-100" alt="./images/FLARED FULL LENGTH PANTS.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/FLARED FULL LENGTH PANTS1.jpg" class="d-block w-100" alt="./images/FLARED FULL LENGTH PANTS.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/FLARED FULL LENGTH PANTS2.jpg" class="d-block w-100" alt="./images/FLARED FULL LENGTH PANTS.jpg">
+                    </div>
+                    <div class="carousel-item">
+                      <img src="./images/FLARED FULL LENGTH PANTS3.jpg" class="d-block w-100" alt="./images/FLARED FULL LENGTH PANTS.jpg">
+                    </div>
+                  </div>
+                  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                  </button>
+                  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                  </button>
+                </div>
+                    <div class="card-body">
+                      <h5 class="card-title">FLARED PANTS <br>  40.50$</h5>
+                      <p class="card-text">High-waisted pants with false back welt pockets. Flared legs. Front zip and interior button closure.</p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio11" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio11">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio12" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio12">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio13" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio13">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio14" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio14">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio15" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio15">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample3" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/LIMITED EDITION LEATHER POCKET VEST.jpg" class="d-block w-100" alt="LIMITED EDITION LEATHER POCKET VEST">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/LIMITED EDITION LEATHER POCKET VEST1.jpg" class="d-block w-100" alt="LIMITED EDITION LEATHER POCKET VEST">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/LIMITED EDITION LEATHER POCKET VEST2.jpg" class="d-block w-100" alt="LIMITED EDITION LEATHER POCKET VEST">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/LIMITED EDITION LEATHER POCKET VEST3.jpg" class="d-block w-100" alt="LIMITED EDITION LEATHER POCKET VEST">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                   
+                    <div class="card-body">
+                      <h5 class="card-title">LEATHER POCKET VEST <br> 
+                        50$
+                      </h5>
+                      <p class="card-text">Shirt made of linen and cotton blend fabric. Lapel collar and below-the-elbow length sleeves. </p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio16" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio16">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio17" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio17">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio18" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio18">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio19" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio19">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio20" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio20">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample6" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/NAVY PLEATED SKIRT.jpg" class="d-block w-100" alt="NAVY PLEATED SKIRT">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/NAVY PLEATED SKIRT2.jpg" class="d-block w-100" alt="NAVY PLEATED SKIRT">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/NAVY PLEATED SKIRT3.jpg" class="d-block w-100" alt="NAVY PLEATED SKIRT">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample6" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample6" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+
+                    <div class="card-body">
+                      <h5 class="card-title">NAVY PLEATED SKIRT  <br> 80$</h5>
+                      <p class="card-text">Shirt made of linen and cotton blend fabric. Lapel collar and below-the-elbow length sleeves. </p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio21" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio21">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio22" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio22">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio23" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio23">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio24" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio24">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio25" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio25">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                    <div id="carouselExample4" class="carousel slide">
+                      <div class="carousel-inner">
+                        <div class="carousel-item active">
+                          <img src="./images/OVERSIZED TOPSTITCHED LINEN SHIRT.jpg" class="d-block w-100" alt="./images/OVERSIZED TOPSTITCHED LINEN SHIRT.jpg">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/OVERSIZED TOPSTITCHED LINEN SHIRT1.jpg" class="d-block w-100" alt="./images/OVERSIZED TOPSTITCHED LINEN SHIRT.jpg">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/OVERSIZED TOPSTITCHED LINEN SHIRT2.jpg" class="d-block w-100" alt="./images/OVERSIZED TOPSTITCHED LINEN SHIRT">
+                        </div>
+                        <div class="carousel-item">
+                          <img src="./images/OVERSIZED TOPSTITCHED LINEN SHIRT3.jpg" class="d-block w-100" alt="./images/OVERSIZED TOPSTITCHED LINEN SHIRT">
+                        </div>
+                      </div>
+                      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample4" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                      </button>
+                      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample4" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                      </button>
+                    </div>
+
+                    <div class="card-body">
+                      <h5 class="card-title">TOPSTITCHED SHIRT <br>  60$</h5>
+                      <p class="card-text">Pleated skirt with elastic waistband.</p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio26" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio26">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio27" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio27">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio28" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio28">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio29" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio29">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio30" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio30">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample5" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/PATCHWORK DENIM BUCKET HAT.jpg" class="d-block w-100" alt="PATCHWORK DENIM BUCKET HAT">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/PATCHWORK DENIM BUCKET HAT1.jpg" class="d-block w-100" alt="PATCHWORK DENIM BUCKET HAT">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/PATCHWORK DENIM BUCKET HAT2.jpg" class="d-block w-100" alt="PATCHWORK DENIM BUCKET HAT">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/PATCHWORK DENIM BUCKET HAT3.jpg" class="d-block w-100" alt="PATCHWORK DENIM BUCKET HAT">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample5" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample5" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">PATCHWORK HAT <br> 20$</h5>
+                      <p class="card-text">Bucket hat made of patchwork denim.</p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio31" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio31">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio32" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio32">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio33" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio33">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio34" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio34">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio35" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio35">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample7" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/POCKET T-SHIRT LIMITED EDITION.jpg" class="d-block w-100" alt="POCKET T-SHIRT LIMITED EDITION">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/POCKET T-SHIRT LIMITED EDITION1.jpg" class="d-block w-100" alt="POCKET T-SHIRT LIMITED EDITION">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/POCKET T-SHIRT LIMITED EDITION2.jpg" class="d-block w-100" alt="POCKET T-SHIRT LIMITED EDITION">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/POCKET T-SHIRT LIMITED EDITION3.jpg" class="d-block w-100" alt="POCKET T-SHIRT LIMITED EDITION">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample7" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample7" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">CPOCKET T-SHIRT <br>  59.99$</h5>
+                      <p class="card-text">Oversized T-shirt with round neck and short sleeves. Contrast patch pocket at chest.                      </p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio36" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio36">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio37" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio37">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio38" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio38">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio39" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio39">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio40" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio40">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample8" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/POINTELLE KNIT TOP.jpg" class="d-block w-100" alt="POINTELLE KNIT TOP">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/POINTELLE KNIT TOP1.jpg" class="d-block w-100" alt="POINTELLE KNIT TOP">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/POINTELLE KNIT TOP2.jpg" class="d-block w-100" alt="POINTELLE KNIT TOP">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/POINTELLE KNIT TOP3.jpg" class="d-block w-100" alt="POINTELLE KNIT TOP">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample8" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample8" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">POINTELLE KNIT TOP <br>  60$</h5>
+                      <p class="card-text">Round neck sleeveless top.</p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio41" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio41">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio42" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio42">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio43" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio43">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio44" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio44">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio45" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio45">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample9" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/PRINTED PAREO PANTS.jpg" class="d-block w-100" alt="PRINTED PAREO PANTS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/PRINTED PAREO PANTS1.jpg" class="d-block w-100" alt="PRINTED PAREO PANTS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/PRINTED PAREO PANTS2.jpg" class="d-block w-100" alt="PRINTED PAREO PANTS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/PRINTED PAREO PANTS3.jpg" class="d-block w-100" alt="PRINTED PAREO PANTS">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample9" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample9" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">PRINTED PAREO PANTS <br>  50$</h5>
+                      <p class="card-text">High-waisted pants made of viscose. Adjustable fabric pareo style overlay with ties.</p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio46" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio46">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio47" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio47">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio48" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio48">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio49" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio49">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio50" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio50">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample10" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/RUBBERIZED JACKET.jpg" class="d-block w-100" alt="RUBBERIZED JACKET">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/RUBBERIZED JACKET1.jpg" class="d-block w-100" alt="RUBBERIZED JACKET">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/RUBBERIZED JACKET2.jpg" class="d-block w-100" alt="RUBBERIZED JACKET">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/RUBBERIZED JACKET3.jpg" class="d-block w-100" alt="RUBBERIZED JACKET">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample10" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample10" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">RUBBERIZED JACKET  <br> 100$</h5>
+                      <p class="card-text">Jacket made of rubberized fabric. Contrast corduroy lapel collar. Long sleeves with adjustable straps at cuffs.</p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio51" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio51">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio52" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio52">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio53" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio53">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio54" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio54">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio55" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio55">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample11" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/SATIN EFFECT TIE CUFF PANTS.jpg" class="d-block w-100" alt="SATIN EFFECT TIE CUFF PANTS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/SATIN EFFECT TIE CUFF PANTS1.jpg" class="d-block w-100" alt="SATIN EFFECT TIE CUFF PANTS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/SATIN EFFECT TIE CUFF PANTS2.jpg" class="d-block w-100" alt="SATIN EFFECT TIE CUFF PANTS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/SATIN EFFECT TIE CUFF PANTS3.jpg" class="d-block w-100" alt="SATIN EFFECT TIE CUFF PANTS">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample11" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample11" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">SATIN EFFECT TIE CUFF PANTS 40$</h5>
+                      <p class="card-text">Mid-rise pants made of 100% viscose. Elastic waist. Side hidden in-seam pockets.</p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio56" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio56">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradiod57" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio57">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio58" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio58">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio59" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio59">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio60" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio60">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample12" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/WAXED FINISH DENIM OVERSHIRT LIMITED EDITION.jpg" class="d-block w-100" alt="WAXED FINISH DENIM OVERSHIRT LIMITED EDITION">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/WAXED FINISH DENIM OVERSHIRT LIMITED EDITION1.jpg" class="d-block w-100" alt="WAXED FINISH DENIM OVERSHIRT LIMITED EDITION">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/WAXED FINISH DENIM OVERSHIRT LIMITED EDITION2.jpg" class="d-block w-100" alt="WAXED FINISH DENIM OVERSHIRT LIMITED EDITION">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/WAXED FINISH DENIM OVERSHIRT LIMITED EDITION3.jpg" class="d-block w-100" alt="WAXED FINISH DENIM OVERSHIRT LIMITED EDITION">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample12" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample12" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">WAXED FINISH DENIM OVERSHIRT 50$</h5>
+                      <p class="card-text">Relaxed fit overshirt made of washed denim fabric with a slightly waxed finish. </p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio61" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio61">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio62" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio62">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio63" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio63">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio64" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio64">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio65" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio65">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample13" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/HIGH RISE LINEN BLEND SHORTS.jpg" class="d-block w-100" alt="HIGH RISE LINEN BLEND SHORTS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/HIGH RISE LINEN BLEND SHORTS1.jpg" class="d-block w-100" alt="HIGH RISE LINEN BLEND SHORTS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/HIGH RISE LINEN BLEND SHORTS2.jpg" class="d-block w-100" alt="HIGH RISE LINEN BLEND SHORTS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/HIGH RISE LINEN BLEND SHORTS3.jpg" class="d-block w-100" alt="HIGH RISE LINEN BLEND SHORTS">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample13" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample13" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">HIGH RISE SHORTS <br> 60$</h5>
+                      <p class="card-text">Shorts made of linen blend fabric. High rise with darts and front pockets. False back flap pocket.</p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio66" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradi66">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio67" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio67">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio68" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio68">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio69" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio69">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio70" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio70">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col">
+                <div class="card" style="width: 18rem;">
+                  <div id="carouselExample14" class="carousel slide">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./images/SATIN EFFECT MIDI DRESS.jpg" class="d-block w-100" alt="SATIN EFFECT MIDI DRESS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/SATIN EFFECT MIDI DRESS1.jpg" class="d-block w-100" alt="SATIN EFFECT MIDI DRESS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/SATIN EFFECT MIDI DRESS2.jpg" class="d-block w-100" alt="SATIN EFFECT MIDI DRESS">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./images/SATIN EFFECT MIDI DRESS3.jpg" class="d-block w-100" alt="SATIN EFFECT MIDI DRESS">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample14" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExample14" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                    <div class="card-body">
+                      <h5 class="card-title">SATIN EFFECT MIDI DRESS  30$</h5>
+                      <p class="card-text">Round neck sleeveless dress. Front wrap detail with opening at chest. Back slit. </p>
+                      <div class="container text-center mx-auto p-2">
+                        <div class="btn-group" role="group" aria-label="Basic radio toggle button group">
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio71" autocomplete="off" checked>
+                          <label class="btn btn-outline-secondary" for="btnradio71">XS</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio72" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio72">S</label>
+                        
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio73" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio73">M</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio74" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio74">L</label>
+
+                          <input type="radio" class="btn-check" name="btnradio" id="btnradio75" autocomplete="off">
+                          <label class="btn btn-outline-secondary" for="btnradio75">XL</label>
+                        </div>
+                      </div>
+                      <a href="#" class="btn btn-success">Buy now</a>
+                    </div>
+                  </div>
+            </div>
+            
+          </div>
+
+        <!--footer-->
+        <footer class="py-5">
+            <div class="d-flex flex-column flex-sm-row justify-content-between py-4 my-4 border-top">
+              <p>&copy; 2023 beHer, Inviona Hoxha. All rights reserved.</p>
+              <ul class="list-unstyled d-flex">
+                <li class="ms-3"><a class="link-body-emphasis" href="https://twitter.com/i/flow/login?redirect_after_login=%2F"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+                  <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+                </svg></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="https://www.instagram.com/"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z"></path>
+                </svg></a></li>
+                <li class="ms-3"><a class="link-body-emphasis" href="https://www.facebook.com/"><svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+                </svg></a></li>
+              </ul>
+            </div>
+          </footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>   
+
+</body>
+</html>
